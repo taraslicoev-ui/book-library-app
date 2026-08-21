@@ -26,6 +26,7 @@
   display: flex;
   align-items: center;
   align-self: flex-start;
+  color: #0a1a2d;
 }
 
 .app-right-column {
@@ -33,6 +34,7 @@
   flex-basis: 65%;
   display: flex;
   flex-direction: column;
+  color: #0A1A2D;
 }
 
 .app-block {
