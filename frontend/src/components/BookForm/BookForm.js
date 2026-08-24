@@ -33,14 +33,18 @@ const BookForm = () => {
         <div>
           <label htmlFor="title">Title:</label>
           <input
-            type="text" id="title" value={title}
+            type="text"
+            id="title"
+            value={title}
             onChange={(event) => setTitle(event.target.value)}
           />
         </div>
         <div>
           <label htmlFor="author">Author:</label>
           <input
-            type="text" id="author" value={author}
+            type="text"
+            id="author"
+            value={author}
             onChange={(event) => setAuthor(event.target.value)}
           />
         </div>
