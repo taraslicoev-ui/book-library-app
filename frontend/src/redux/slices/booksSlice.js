@@ -42,7 +42,6 @@ const booksSlice = createSlice({
         state.push(createBookWithId(action.payload, 'API'))
       }
     })
-
   },
 })
 
